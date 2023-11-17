@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+
   var todoInput = document.getElementById('todo');
   var editTaskInput = document.getElementById('editTask');
   var saveButton = document.getElementById('saveButton');
@@ -64,4 +64,3 @@ document.addEventListener('DOMContentLoaded', function() {
       alert('Please select a task to delete.');
     }
   });
-});
